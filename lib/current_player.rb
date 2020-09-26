@@ -4,7 +4,9 @@ def turn_count(board)
 
     if turn.upcase == "X" || turn == "O"
       counter += 1
-      puts "#{counter}"
     end
-    turn_count(board)
   end
+  counter
+end
+    
+
